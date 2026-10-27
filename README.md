@@ -19,6 +19,8 @@ License: MIT.
 
 ## Assembly preview
 
+**Video sample (20 s):** [preview/assembly-sample.mp4](preview/assembly-sample.mp4) — motor into cradle, clip, crank, leg + peg + cap, then it walks.
+
 Workbench renders of the first build steps (lift → align → fit → check). Hands are translucent so the joint stays visible.
 
 | Kit | Motor into cradle | Crank onto shaft | Hang a leg |
