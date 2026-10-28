@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Printed Wheelbarrow Walker</title>
+<meta name="description" content="A small walking robot that pushes a wheelbarrow: 11 printable parts or cardboard templates, one TT gear motor, step-by-step assembly video.">
+<meta property="og:image" content="media/assembled-printed.png">
+<style>
+  :root { --bg:#0f1419; --card:#182029; --line:#2a3542; --text:#e6edf3; --dim:#9aa7b4; --accent:#7e57c2; --accent2:#f2c200; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--text); }
+  main { max-width:1100px; margin:0 auto; padding:32px 20px 64px; }
+  h1 { font-size:2.2rem; margin:0 0 6px; }
+  h2 { margin:48px 0 12px; font-size:1.4rem; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  p { color:var(--dim); margin:6px 0 14px; }
+  a { color:#b39ddb; }
+  .lead { font-size:1.1rem; max-width:760px; }
+  .btns { display:flex; flex-wrap:wrap; gap:10px; margin:18px 0 6px; }
+  .btn { background:var(--card); border:1px solid var(--line); color:var(--text); text-decoration:none; padding:9px 14px; border-radius:8px; }
+  .btn.main { background:var(--accent); border-color:var(--accent); }
+  video, img { width:100%; display:block; border-radius:10px; background:#000; }
+  .grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); }
+  .two { display:grid; gap:14px; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); }
+  figure { margin:0; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:8px; }
+  figcaption { color:var(--dim); font-size:.9rem; padding:8px 4px 2px; }
+  figcaption b { color:var(--text); }
+  .step { color:var(--accent2); font-weight:700; margin-right:6px; }
+  #viewer { position:relative; height:420px; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  #viewer canvas { display:block; }
+  #viewer .hint { position:absolute; left:12px; bottom:10px; color:var(--dim); font-size:.85rem; pointer-events:none; }
+  .parts { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
+  .parts button { background:var(--card); color:var(--text); border:1px solid var(--line); border-radius:999px; padding:6px 12px; cursor:pointer; font:inherit; font-size:.9rem; }
+  .parts button.on { background:var(--accent); border-color:var(--accent); }
+  .parts a { font-size:.8rem; margin-left:4px; }
+  ul { color:var(--dim); }
+  footer { margin-top:48px; color:var(--dim); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Printed Wheelbarrow Walker</h1>
+  <p class="lead">A small walking robot that pushes a wheelbarrow, driven by one TT gear motor. Two complete builds from one design: 11 parts printed on a 180 × 180 mm bed with no supports, or the same parts cut from 3 mm corrugated cardboard.</p>
+  <div class="btns">
+    <a class="btn main" href="#parts">View &amp; download the parts</a>
+    <a class="btn" href="cardboard/templates.pdf">Cardboard templates (PDF)</a>
+    <a class="btn" href="https://github.com/dev-repos/printed-wheelbarrow-walker/blob/main/print.md">Print settings</a>
+    <a class="btn" href="https://github.com/dev-repos/printed-wheelbarrow-walker">GitHub repo</a>
+  </div>
+
+  <h2>Assembly video</h2>
+  <p>Motor pushed into the cradle can first, clip, crank, leg + hip peg + cap, then it walks. Every move is checked so no part passes through another.</p>
+  <video src="media/assembly-sample.mp4" controls playsinline preload="metadata" poster="media/02-motor-1-align.jpg"></video>
+
+  <h2>Step by step</h2>
+  <div class="grid">
+    <figure><img src="media/01-kit.jpg" alt="Kit laid out" loading="lazy"><figcaption><span class="step">1</span><b>Lay out the kit</b>: printed parts on the mat, small parts in the tray, bought parts in front.</figcaption></figure>
+    <figure><img src="media/02-motor-1-align.jpg" alt="Motor lined up with the cradle" loading="lazy"><figcaption><span class="step">2a</span><b>Line up the motor</b> with the cradle's open end, can first.</figcaption></figure>
+    <figure><img src="media/02-motor-2-slide.jpg" alt="Motor sliding in" loading="lazy"><figcaption><span class="step">2b</span><b>Push it in</b>: the shaft rides up the open slots.</figcaption></figure>
+    <figure><img src="media/02-motor-3-seated.jpg" alt="Motor seated" loading="lazy"><figcaption><span class="step">2c</span><b>Seated</b>: the gearbox shoulder stops on the ledges.</figcaption></figure>
+    <figure><img src="media/02-motor-4-clip.jpg" alt="Clip on" loading="lazy"><figcaption><span class="step">2d</span><b>Snap the clip on</b> underneath.</figcaption></figure>
+    <figure><img src="media/03-crank-1-align.jpg" alt="Crank lined up" loading="lazy"><figcaption><span class="step">3a</span><b>Line up the flat sides</b> of the crank and shaft.</figcaption></figure>
+    <figure><img src="media/03-crank-2-push.jpg" alt="Crank pushed on" loading="lazy"><figcaption><span class="step">3b</span><b>Push the crank on.</b></figcaption></figure>
+    <figure><img src="media/03-crank-3-seated.jpg" alt="Both cranks on" loading="lazy"><figcaption><span class="step">3c</span><b>Both cranks on</b>, 180° apart.</figcaption></figure>
+    <figure><img src="media/04-leg-1-align.jpg" alt="Leg lined up" loading="lazy"><figcaption><span class="step">4a</span><b>Bring the leg in</b>. Legs go on before the yoke.</figcaption></figure>
+    <figure><img src="media/04-leg-2-on-pin.jpg" alt="Leg on the pin" loading="lazy"><figcaption><span class="step">4b</span><b>Leg slot over the crank pin.</b></figcaption></figure>
+    <figure><img src="media/04-leg-3-peg.jpg" alt="Hip peg" loading="lazy"><figcaption><span class="step">4c</span><b>Hip peg</b> through the leg into the cradle.</figcaption></figure>
+    <figure><img src="media/04-leg-4-cap.jpg" alt="Pin cap" loading="lazy"><figcaption><span class="step">4d</span><b>Cap on the pin.</b></figcaption></figure>
+  </div>
+
+  <h2>It walks</h2>
+  <p>Pendulum legs driven by cranks 180° apart (8 mm crank, hip 26 mm above the shaft). Stride 54.2 mm, foot lift 4.3 mm.</p>
+  <video src="media/walk.mp4" autoplay loop muted playsinline></video>
+
+  <h2>Two builds, one design</h2>
+  <div class="two">
+    <figure><img src="media/assembled-printed.png" alt="Full 3D print" loading="lazy"><figcaption><b>Full 3D print</b>: PLA, 0.2 mm layers, no supports.</figcaption></figure>
+    <figure><img src="media/assembled-cardboard.png" alt="Full cardboard" loading="lazy"><figcaption><b>Full cardboard</b>: print the templates at 100 % (check the 100 mm bar).</figcaption></figure>
+  </div>
+
+  <h2 id="parts">Parts</h2>
+  <p>Click a part to turn it in 3D. Drag to rotate, scroll to zoom. ⬇ downloads the STL.</p>
+  <div class="parts" id="partlist"></div>
+  <div id="viewer"><div class="hint" id="hint">Loading…</div></div>
+
+  <h2>You also need</h2>
+  <ul>
+    <li>A TT gear motor (double shaft, 3–6 V)</li>
+    <li>A 2×AA battery holder with a switch</li>
+    <li>A 3 mm bamboo skewer, a ping-pong ball and a bottle cap</li>
+  </ul>
+  <p>Building with kids: a grown-up does the knife cuts, hot glue and soldering. The small parts (pegs, caps) are a choking hazard for under-3s.</p>
+
+  <footer>MIT licensed · <a href="https://github.com/dev-repos/printed-wheelbarrow-walker">dev-repos/printed-wheelbarrow-walker</a></footer>
+</main>
+
+<script type="importmap">
+{ "imports": { "three": "https://unpkg.com/three@0.169.0/build/three.module.js",
+               "three/addons/": "https://unpkg.com/three@0.169.0/examples/jsm/" } }
+</script>
+<script type="module">
+import * as THREE from "three";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { STLLoader } from "three/addons/loaders/STLLoader.js";
+
+const PARTS = [
+  ["P01_crank", "Crank", "#FF7A00"], ["P02_leg", "Leg", "#1E88E5"], ["P03_wheel", "Wheel", "#E53935"],
+  ["P04_cradle", "Cradle", "#7E57C2"], ["P05_hip_peg", "Hip peg", "#F5F5F5"], ["P06_pin_cap", "Pin cap", "#5a5a5a"],
+  ["P07_yoke", "Yoke", "#43A047"], ["P08_arm", "Arm", "#00BCD4"], ["P09_rail", "Rail", "#EC407A"],
+  ["P10_tray", "Tray", "#FDD835"], ["P11_motor_clip", "Motor clip", "#8D6E63"],
+];
+const box = document.getElementById("viewer"), hint = document.getElementById("hint");
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+box.prepend(renderer.domElement);
+const scene = new THREE.Scene();
+scene.background = new THREE.Color("#182029");
+const cam = new THREE.PerspectiveCamera(35, 1, 0.1, 5000);
+const controls = new OrbitControls(cam, renderer.domElement);
+controls.enableDamping = true;
+controls.autoRotate = true;
+scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 1.6));
+const sun = new THREE.DirectionalLight(0xffffff, 1.8);
+sun.position.set(1, 1.5, 2);
+scene.add(sun);
+const grid = new THREE.GridHelper(200, 20, 0x3a4a5a, 0x26323e);
+scene.add(grid);
+const loader = new STLLoader();
+let mesh;
+
+function size() {
+  const w = box.clientWidth, h = box.clientHeight;
+  renderer.setSize(w, h);
+  cam.aspect = w / h;
+  cam.updateProjectionMatrix();
+}
+addEventListener("resize", size);
+size();
+
+function show(id, colour, btn) {
+  document.querySelectorAll(".parts button").forEach(b => b.classList.toggle("on", b === btn));
+  hint.textContent = "Loading…";
+  loader.load(`stl/${id}.stl`, geo => {
+    if (mesh) { scene.remove(mesh); mesh.geometry.dispose(); }
+    geo.rotateX(-Math.PI / 2);                       // STL Z-up → three.js Y-up
+    geo.computeBoundingBox();
+    const b = geo.boundingBox, c = new THREE.Vector3();
+    b.getCenter(c);
+    geo.translate(-c.x, -b.min.y, -c.z);             // sit it on the grid
+    geo.computeVertexNormals();
+    mesh = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ color: colour, roughness: 0.55, metalness: 0.05 }));
+    scene.add(mesh);
+    const s = b.getSize(new THREE.Vector3()), r = Math.max(s.x, s.y, s.z);
+    controls.target.set(0, s.y / 2, 0);
+    cam.position.set(r * 1.9, r * 1.4, r * 2.4);
+    const mm = v => v.toFixed(1);
+    hint.textContent = `${id}: ${mm(s.x)} × ${mm(s.z)} × ${mm(s.y)} mm`;
+  }, undefined, () => { hint.textContent = `Couldn't load ${id}.stl`; });
+}
+
+const list = document.getElementById("partlist");
+PARTS.forEach(([id, name, colour], i) => {
+  const span = document.createElement("span");
+  const btn = document.createElement("button");
+  btn.textContent = name;
+  btn.onclick = () => show(id, colour, btn);
+  const dl = document.createElement("a");
+  dl.href = `stl/${id}.stl`;
+  dl.download = `${id}.stl`;
+  dl.textContent = "⬇";
+  dl.title = `Download ${id}.stl`;
+  span.append(btn, dl);
+  list.append(span);
+  if (i === 3) show(id, colour, btn);                // start on the cradle
+});
+
+renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, cam); });
+</script>
+</body>
+</html>
