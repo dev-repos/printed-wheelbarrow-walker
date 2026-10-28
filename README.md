@@ -1,5 +1,7 @@
 # Printed Wheelbarrow Walker
 
+**Site with the assembly video and a 3D part viewer: https://dev-repos.github.io/printed-wheelbarrow-walker/**
+
 A small walking robot that pushes a wheelbarrow, driven by one TT gear motor. Two complete builds from one design:
 
 - **Full 3D print**: 11 parts in [`stl/`](stl/), no supports, every part fits a 180 × 180 mm bed. Settings and fits: [`print.md`](print.md).
