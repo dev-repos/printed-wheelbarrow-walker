@@ -21,12 +21,16 @@ License: MIT.
 
 ## Assembly preview
 
-**Assembly video (42 s, with voice-over):** [preview/assembly-sample.mp4](preview/assembly-sample.mp4). A claw gripper pushes the motor into the cradle can first, snaps the clip on, fits the crank, then the leg, hip peg and cap (legs go on before the yoke), and it walks. Each move happens while the voice-over describes it, and every move is checked so no part passes through another.
+**Assembly video (60 s, with voice-over):** [preview/assembly-sample.mp4](preview/assembly-sample.mp4). A claw gripper pushes the motor into the cradle can first, snaps the clip on, fits the crank, then the leg, hip peg and cap (legs go on before the yoke). Then the battery holder drops into the tray between the ribs, its red and black wires run to the motor tabs, and the switch goes on, so it walks. Each move happens while the voice-over describes it, and every move (and every wire, at every crank angle) is checked so nothing passes through anything else.
 
 Workbench renders of the first build steps (lift → align → fit → check). A two-jaw claw holds each part at the point where you'd grip it.
 
 | Kit | Motor into cradle | Crank onto shaft | Hang a leg |
 |---|---|---|---|
 | ![kit](preview/01-kit.jpg) | ![motor](preview/02-motor-3-seated.jpg) | ![crank](preview/03-crank-2-push.jpg) | ![leg](preview/04-leg-3-peg.jpg) |
+
+| Battery holder in the tray | Wires to the motor tabs | Switch on |
+|---|---|---|
+| ![holder](preview/05-power-2-holder.jpg) | ![wires](preview/05-power-3-wires.jpg) | ![on](preview/05-power-4-on.jpg) |
 
 ![walking](preview/walk.gif)
