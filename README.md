@@ -21,9 +21,9 @@ License: MIT.
 
 ## Assembly preview
 
-**Video sample (20 s):** [preview/assembly-sample.mp4](preview/assembly-sample.mp4) — motor pushed into the cradle can first, clip, crank, leg + peg + cap (legs go on before the yoke), then it walks. Every move is checked so no part passes through another.
+**Assembly video (42 s, with voice-over):** [preview/assembly-sample.mp4](preview/assembly-sample.mp4). A claw gripper pushes the motor into the cradle can first, snaps the clip on, fits the crank, then the leg, hip peg and cap (legs go on before the yoke), and it walks. Each move happens while the voice-over describes it, and every move is checked so no part passes through another.
 
-Workbench renders of the first build steps (lift → align → fit → check). Hands are translucent so the joint stays visible.
+Workbench renders of the first build steps (lift → align → fit → check). A two-jaw claw holds each part at the point where you'd grip it.
 
 | Kit | Motor into cradle | Crank onto shaft | Hang a leg |
 |---|---|---|---|
