@@ -19,7 +19,7 @@ License: MIT.
 
 ## Assembly preview
 
-**Video sample (20 s):** [preview/assembly-sample.mp4](preview/assembly-sample.mp4) — motor into cradle, clip, crank, leg + peg + cap, then it walks.
+**Video sample (20 s):** [preview/assembly-sample.mp4](preview/assembly-sample.mp4) — motor pushed into the cradle can first, clip, crank, leg + peg + cap (legs go on before the yoke), then it walks. Every move is checked so no part passes through another.
 
 Workbench renders of the first build steps (lift → align → fit → check). Hands are translucent so the joint stays visible.
 
